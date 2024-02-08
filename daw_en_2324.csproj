@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Uc\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Uc\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Uc\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Uc\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Uc\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Student\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Student\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Student\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Student\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Student\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Enrollment\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Enrollment\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Enrollment\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Enrollment\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Enrollment\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CurricularProgram\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CurricularProgram\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CurricularProgram\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CurricularProgram\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\CurricularProgram\Index.cshtml" />
+  </ItemGroup>
+
+</Project>
